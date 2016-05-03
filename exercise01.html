@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>Phonesavanh Thongsouksanoumane</title>
+
+    <!-- Styles -->
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,800%7COpen+Sans:300,400,500,600,700,800%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Favicons -->
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <!-- 3D files viewer -->
+    <script type="text/javascript" src="assets/media/jsc3d_ie.min.js"></script>
+    <script type="text/javascript" src="assets/media/jsc3d.min.js"></script>
+    <script type="text/javascript" src="assets/media/jsc3d.webgl.js"></script>
+    <script type="text/javascript" src="assets/media/jsc3d.touch.js"></script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="bootstrap/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Load the menu file -->
+    <script>
+    function menu() {
+                        $('#exercises').load("exercises-menu.html");
+                      $('#project').load("project-menu.html");
+                      $('#cclicense').load("license.html");
+
+                      }
+    </script>
+
+  </head>
+
+   <body onload="menu()" class="sticky-nav">
+
+    <!--  Static Sticky-navbar -->
+    <nav class="page-navigation full-topbar">
+      <ul class="nav">
+        <li><a href="#sec-1">Using HTML and Git</a></li>
+              <li><a href="#sec-2">Project Management</a></li>
+        <li><a href="#sec-3">Notes</a></li>
+      </ul>
+    </nav>
+   End Static Sticky-navbar -->
+    <!-- Site header -->
+    <!-- Logo & Navigation -->
+    <header class="site-header">
+
+      <!-- Logo & Navigation -->
+      <nav class="site-navigation">
+        <div class=" container container-fluid">
+
+  <a class="navbar-toggle" href="#" data-toggle="offcanvas"><i class="fa fa-bars"></i></a>
+
+          <!-- Static navbar -->
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="logo-default" href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+             <a class="logo-transparent" href="index.html"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Exercises <span class="caret"></span></a>
+              <ul id="exercises" class="dropdown-menu" role="menu">
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Final Project <span class="caret"></span></a>
+              <ul id="project" class="dropdown-menu" role="menu">
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div><!--/.nav-collapse -->
+             <!-- End Static navbar -->
+      </div>
+    </nav>
+
+        </header>
+
+  <!--  END Logo & Navigation -->
+    <!-- Site header -->
+    <header class="site-header">
+      <!-- Header image -->
+      <div class="header-image bg-orange no-padding no-overlay">
+        <div class="container">
+          <br><br>
+          <h1 align=center>PHONESAVANH THONGSOUKSANOUMANE</h1>
+          <h4 align=center>échoFab, Montréal, Canada</h4>
+          <br><br>
+        </div>
+      </div>
+      <!-- END Header image -->
+
+    </header>
+    <!-- END Site header -->
+
+
+    <!-- Main container -->
+    <main>
+
+      <!-- Week - Week 1 -->
+      <section>
+
+          <div id="sec-1" class="container">
+          <header class="section-header">
+            <span>Week 1</span>
+            <h2><strong>Principles and Practices</strong></h2>
+<p>Project Management</p>
+          </header>
+
+
+
+             <h2>This Week's Assignment:</h2>
+<p class="lead">Is to create a <a href="index.html">page about ourself</a> and a <a href="project.html">a page about our final project and prepare for classes.</a> <a href="http://academy.cba.mit.edu/classes/project_management/index.html" target="_blank"> See detail here.</a>
+
+<ul class="step-text">
+
+    <li><h5>Set up a Git repository and choosing a html application</h5></li>
+    <li><h5>Make a project planning for final project</h5></li>
+    <li><h5>Plan for fab Academy classes</h5></li>
+  </ul>
+
+            <h3>Git repository</h3>
+<p> I have set up a git repesitory on http://git.fabacademy.org. My user name is phonesavanht so my link is http://git.fabacademy.org/u/phonesavanht. I notice we are using gitlab.com (vs the known github.com server) for the Fab Academy project. I used <a href="http://archive.fabacademy.org/archives/2016/charlottelatin/students/87/exercise01.html" target="_blank">David's work</a> to understand what I was suppose to do to clone, pull and push off my student remote repository using these commands : </p>
+
+<p>
+git clone git@git.fabacademy.org:fabacademy2016/echofab.git  <br>
+git pull git@git.fabacademy.org:fabacademy2016/echofab.git  <br>
+git push git@git.fabacademy.org:fabacademy2016/echofab.git  <br>
+      </p>
+
+            <p> Unfortunately I was not able to push my files to my student folder, below is my error message:</p>
+            <pre>
+
+
+GitLab: You are not allowed to push code to this project.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+            </pre>
+
+            <p>My instructor and guru, Terence Fagan fixed it the next day (February 4th 2016).</p>
+<h3>Generating SSH key made a nice image</h3>
+            <pre>
++---[RSA 2048]----+
+|         =       |
+|        + O      |
+|  ..   o B .     |
+|.o++    + o      |
+|o.+=.. .So       |
+|oo+++ ..  .      |
+|o+o= o ++. .     |
+|. + o *=+o.      |
+|.E   *o +o.      |
++----[SHA256]-----+
+
+</pre>
+
+<p>Before I could connect to the remote server I had to create a SSH key, it also made a beautiful drawing shown above.</p>
+
+<p>I used the terminal to set up my account, cloned, pulled and pushed my stedent files and afterwords used a more convenient app for Mac such as <a href="https://desktop.github.com/" target="_blank">git hub Desktop.</a>
+    <img class="img-responsive imgSmall left" src="assets/img/content/week1_gitHubDesktop.png">
+     There is also more choice <a href="https://www.quora.com/What-is-the-best-Git-client-for-Mac-OS-X" target="_blank">here</a>. Today, February 23th, I tried another git application called GitKraken and I could see my attempt using the terminal to change the comit comment I used tree weeks ago. I wrotte randomly revision one,2, 3 etc, each time I made a revision on my files. As I was listening and review tutorial on using git, I learned that commenting and weel tagged comit was good practice so that when looking fo changes in the history we can more easily find it. You can visually see change below. So after revision 5 on week two, I decided to name my revision like this : week 2 = revision 2. All minor change in that week would be 2.1.1 for exemple. And each bigger element add in that week would be 2.2!
+
+    <img src="assets/img/content/week1_gitKraken.png" class="img-responsive">
+
+
+            </p
+            <br clear="all">
+
+
+
+
+    <h3>HTML and web site</h3>
+
+            <p>I use Bootsrapp library and theme for my website. Simple and easy to integrate. I am used to Bracket and Dreamweaver for coding so I sticked with it.</p>
+
+        </div>
+
+<!-- END sect 1 -->
+ <!-- sect-2-->
+
+        <div id="sec-2" class="container">
+          <header class="section-header">
+            <span>Planning</span>
+            <h2>Project Management</h2>
+<h3>Testing multiple application</h3>
+<p>Comming soon...</p>
+ </header>
+
+
+  </div>
+
+<!--END sect-2-->
+
+<!-- sect-3-->
+
+  </div>
+
+            <div id="sec-3" class="container">
+          <header class="section-header">
+    <span>Note</span>
+            <h2>Preparing for class</h2>
+                </header>
+                 <h3>Setting up conference room</h3>
+                  <p>February 24th, 2016 - As I am writting this, it is now in the fourth week in the program. It all started with a really hard with struggling to connect to the Fab Academy conference room from our fab lab. I tried all the software on mac and Ubuntu. Following instruction in the <a href="https://docs.google.com/document/d/1KomQyZGm4z4l6jxrfnfBkowaMTrUbEjKziwz1gh4HCk/edit#" target="_blank">hanbook</a> and help with Guru in fab lab Beach Lab, I kept having error message such as port 5060 is not opened. I tried other port too and with no access to manage the router, I tried the Polycom app on iPad, also without success. To my surprise, when I was back to the country house, all application worked! Linphone and polycom on both Ubuntu, Mac and IOS, so it was definitly the setting in the fab lab. testing my connection and choosing room 1 from the conférence room list I notice seeing the lab, I realisez I was connected to the same network where we see all the other labs. Back to the Fab Lab, I use jabber video conference and loggin used for the lab to connect. I was happy. Today I am out of the lab and am not abble to connect, thus having time to log what happened then and other experience of the first week of the Academy. If someone reading this knows what could be the problem, please do not hesitate to <a href="contact.html">writte to me</a>.<a href=""are video made for those who can not attend.</p>
+
+                      <p>Bellow my sip preference</p>
+                <pre>[sip]
+media_encryption=srtp
+default_proxy=-1
+guess_hostname=1
+contact="echoFab" <sip:phonesavanh@172.16.43.171:63749>
+inc_timeout=15
+use_info=0
+use_rfc2833=0
+use_ipv6=0
+register_only_when_network_is_up=1
+sip_port=5060
+sip_tcp_port=0
+sip_tls_port=0
+
+[sip]
+root_ca=./share/linphone/rootca.pem
+verify_server_certs=1
+verify_server_cn=1
+contact="echoFab" <sip:phonesavanh@172.16.43.171:63749>
+media_encryption=none
+default_proxy=0
+multi_transport_migration_done=1
+guess_hostname=1
+inc_timeout=30
+in_call_timeout=0
+delayed_timeout=4
+use_ipv6=0
+register_only_when_network_is_up=1
+register_only_when_upnp_is_ok=1
+sip_port=5060
+sip_tcp_port=5060
+sip_tls_port=-1</pre>
+
+  </div>
+<!--END sect-3-->
+
+
+      </section>
+    </main>
+    <!-- END Main container -->
+
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <ul class="footer-links">
+              <li><a href="http://phonesavanh.com">phonesavanh.com</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+           <!-- <ul class="footer-socials">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul> -->
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <p class="back-to-top"><a id="scroll-up" href="#">back to top</a></p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <!-- END Site footer -->
+
+
+    <!-- Scripts -->
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,13 @@
+
+
+.img-responsive{
+  display: block;
+  max-width: 75%;
+  height: auto;
+    margin: 15px 0px;
+}
+ .left { float: left; margin: 15px 15px 0 0;}
+.right {float: right; margin: 15px 15px 15px 0}
+.imgSmall {  max-width: 35%;}
+.imgMin {  max-width: 25%;}
+.nav {{position:fixed;right:0;left:0;}

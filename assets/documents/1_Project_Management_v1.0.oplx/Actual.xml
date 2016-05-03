@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="dPEZtK1j8v8">
+  <start-date>2016-01-25T13:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <child-resource idref="r1"/>
+    <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
+    <child-resource idref="r4"/>
+    <child-resource idref="r5"/>
+  </resource>
+  <resource id="r1">
+    <name>Phonesavanh</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r2">
+    <name>Darcy whyte</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r3">
+    <name>Terence Fagan</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r4">
+    <name>Raphael Demers</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r5">
+    <name>Frederic Dadure</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t2"/>
+    <child-task idref="t3"/>
+    <child-task idref="t4"/>
+    <child-task idref="t11"/>
+    <child-task idref="t12"/>
+    <child-task idref="t13"/>
+    <child-task idref="t14"/>
+    <child-task idref="t15"/>
+    <child-task idref="t16"/>
+    <child-task idref="t17"/>
+    <child-task idref="t18"/>
+    <child-task idref="t19"/>
+    <child-task idref="t20"/>
+    <child-task idref="t21"/>
+    <child-task idref="t22"/>
+    <child-task idref="t23"/>
+    <child-task idref="t24"/>
+    <child-task idref="t25"/>
+    <child-task idref="t26"/>
+  </task>
+  <task id="t1">
+    <title>Week 01. Principles and Practices, Project Management</title>
+    <type>group</type>
+    <start-constraint-date>2016-01-26T15:15:00.000Z</start-constraint-date>
+    <child-task idref="t28"/>
+    <child-task idref="t29"/>
+    <child-task idref="t30"/>
+    <start-no-earlier-than>2016-01-26T15:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t2">
+    <title>Week 02. Computer-aided Design</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-01T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-01T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t3">
+    <title>Week 03. Computer-controlled Cutting</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t4">
+    <title>Week 04. Electronics Production</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t11">
+    <title>Week 05. 3D Scanning and Printing</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t12">
+    <title>Week 06. Electronics Design</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t13">
+    <title>Week 07. Embedded Programming</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t14">
+    <title>Week 08. Computer-controlled Machining</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t15">
+    <title>Week 09. Molding and Casting</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t16">
+    <title>Week 10. Input Devices</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t17">
+    <title>Week 11. Output Devices</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t18">
+    <title>Week 12. Composites</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t19">
+    <title>Week 13. Networking and Communications</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t20">
+    <title>Week 14. Mechanical Design, Machine Design</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t21">
+    <title>Week 15. Interface and Application Programming</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t22">
+    <title>Week 16. Applications and Implications</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t23">
+    <title>Week 17. Invention, Intellectual Property, and Income</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t24">
+    <title>Week 18. Project Development</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t25">
+    <title>Week 19. Project Presentation</title>
+    <type>group</type>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t26">
+    <title>Final Project</title>
+    <type>group</type>
+    <start-constraint-date>2016-01-27T13:00:00.000Z</start-constraint-date>
+    <child-task idref="t32"/>
+    <child-task idref="t33"/>
+    <child-task idref="t31"/>
+    <start-no-earlier-than>2016-01-27T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t28">
+    <title>Setting up conference call</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t29">
+    <title>Buying material at Digikey</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t30">
+    <title>Git, Web site</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t31">
+    <title/>
+    <effort>28800</effort>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t32">
+    <title>Make prototype v1</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t33">
+    <title>Buy material at Abra Electronics</title>
+    <effort>28800</effort>
+    <start-constraint-date>2016-02-24T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="true" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
